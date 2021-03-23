@@ -1,0 +1,8 @@
+# Creating MEDICAL_CONDITION table
+# Author: Team 25
+
+CREATE TABLE MEDICAL_CONDITION (
+	Cm_code CHAR(3) NOT NULL,
+	Name VARCHAR(100) NULL,
+    PRIMARY KEY (Cm_code)
+)

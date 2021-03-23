@@ -1,0 +1,6 @@
+INSERT INTO MEDICAL_CONDITION (Cm_code, Name) VALUES ('cd1', 'Headache');
+INSERT INTO MEDICAL_CONDITION (Cm_code, Name) VALUES ('cd1', 'Stomach Ache');
+
+SELECT Cm_code, COUNT(*) as CountWithId
+FROM MEDICAL_CONDITION
+GROUP BY MEDICAL_CONDITION.Cm_code

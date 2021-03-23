@@ -1,0 +1,9 @@
+# Creating PATIENT_PHONE_NO table
+# Author: David Nguyen
+
+CREATE TABLE PATIENT_PHONE_NO (
+	PID varchar(15),
+    Phone_no char(10),
+    PRIMARY KEY (PID, Phone_no),
+    FOREIGN KEY (PID) REFERENCES PATIENT(PID) ON DELETE CASCADE ON UPDATE CASCADE
+);
