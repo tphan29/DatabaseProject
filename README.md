@@ -1,2 +1,2 @@
-# Urgent Care relational redatabase project 
+# Urgent care clinic relational database project 
 Repo for class project updated for personal use 
